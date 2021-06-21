@@ -1,0 +1,16 @@
+INSERT INTO tbl_regions(id,name) VALUES (1,'Sudamerica');
+INSERT INTO tbl_regions(id,name) VALUES (2,'Centroamerica');
+INSERT INTO tbl_regions(id,name) VALUES (3,'Norteamerica');
+INSERT INTO tbl_regions(id,name) VALUES (4,'Europa');
+INSERT INTO tbl_regions(id,name) VALUES (5,'Asia');
+INSERT INTO tbl_regions(id,name) VALUES (6,'Africa');
+INSERT INTO tbl_regions(id,name) VALUES (7,'Oceania');
+INSERT INTO tbl_regions(id,name) VALUES (8,'Antartida');
+
+INSERT INTO tbl_customers(numberID,first_name,last_name,email,photo_url,state,region_id)
+VALUES ('45789654','Josmar','Bolaños','Bolaños@gmail.com','','CREATED',1); 
+INSERT INTO tbl_customers(numberID,first_name,last_name,email,photo_url,state,region_id)
+VALUES ('45789658','Ruby','Zela','Bolaños@gmail.com','','CREATED',2); 
+INSERT INTO tbl_customers(numberID,first_name,last_name,email,photo_url,state,region_id)
+VALUES ('85478548','Mario','Hamilton','Bolaños@gmail.com','','CREATED',3); 
+
